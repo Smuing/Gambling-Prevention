@@ -1,0 +1,149 @@
+html, body{
+    width: 100%;
+    margin: 0;
+}
+.menulink {
+    text-decoration: none;
+    font-size: 20px;
+    margin-right: 15px;
+    color: rgb(46, 46, 46);
+}
+h1>a{
+    text-decoration: none;
+    color: rgb(46, 46, 46);
+    margin-left: 20px;
+}
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px;
+}
+/* 탑메뉴 */
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+    padding: 1rem;
+    color: rgb(46, 46, 46);
+    background: rgb(252, 252, 252);
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1;
+    box-shadow: 0 0 9px 4px rgba(0, 0, 0, 0.3);
+}
+h1{
+    font-size: 30px;
+}
+body {
+    padding-top: 50px;
+    background: #EEE;
+}
+
+.p1{
+    display: flex;
+    margin-left: 190px;
+}
+.p1>li{
+    border: 1px solid black;
+}
+.ultitle{
+    font-weight: bold;
+}
+.p1>li>ul>li>a{
+    text-decoration: none;
+}
+#dobak1>p{
+    font-style: italic;
+    font-size: 20px;
+}
+
+/* 뒷배경 */
+#se{
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    /* position: relative; */
+    transition-duration:0.4s;
+}
+.bg1{
+    background-color: #2c3e50;
+    transition-duration:0.4s;
+}
+.bg2{
+    background-color:#8e80af;
+    transition-duration:0.4s;
+}
+.bg3{
+    background-color:#66f161;
+    transition-duration:0.4s;
+}
+
+/* 본문 */
+#box{
+    width: 70%;
+    height: 100%;
+    margin: 0 auto;
+    /* position: relative; */
+    z-index: 2;
+}
+.box1{
+    background-color:#bdc3c7;
+    box-shadow: 0 0 9px 4px rgba(255, 255, 255, 0.3);
+    transition-duration:0.4s;
+}
+.box2{
+    background-color:#e2daff; 
+    box-shadow: 0 0 9px 4px rgba(0, 0, 0, 0.3);
+    transition-duration:0.4s;
+}
+.box3{
+    background-color: #d1f1d8;
+    box-shadow: 0 0 9px 4px rgba(0, 0, 0, 0.3);
+    transition-duration:0.4s;
+}
+section{
+    padding-top: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+#dobak1{
+    text-align: center;
+}
+#dobak1 img{
+    margin-top: 50px;
+    width: 1000px;
+    border: 2px solid #000C40;
+    box-shadow: 0 0 9px 4px  rgba(0, 0, 0, 0.3);
+}
+#dobak2{
+    text-align: center;
+}
+#dobak2 img{
+    border: 2px solid #000C40;
+    box-shadow: 0 0 9px 4px  rgba(0, 0, 0, 0.3);
+}
+#dobak3{
+    text-align: center;
+}
+.title3{
+    font-style: oblique;
+}
+
+.bob{
+    font-style: italic;
+}
+.red{
+    color: rgb(201, 25, 25);
+}
+.end{
+    margin: 0;
+}
+.blue{
+    color: rgb(70, 70, 253);
+    font-weight: bold;
+    font-size: 17px;
+}
